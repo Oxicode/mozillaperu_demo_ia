@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo Mozilla</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-7">
+            <div class="card">
+                <div class="card-body">
+                    <div class="btn-group">
+                        <a href="https://storagetestmozilla.blob.core.windows.net/demo/IMG_20191002_105856.jpg" class="btn btn-primary demo-img">Demo 1</a>
+                        <a href="https://storagetestmozilla.blob.core.windows.net/demo/IMG-20190924-WA0014-a.jpeg" class="btn btn-primary demo-img">Demo 2</a>
+                        <a href="https://storagetestmozilla.blob.core.windows.net/demo/IMG-20191010-WA0090.jpg" class="btn btn-primary demo-img">Demo 3</a>
+                        <a href="https://storagetestmozilla.blob.core.windows.net/demo/rostro.jpg" class="btn btn-primary demo-img">Demo 4</a>
+                    </div>
+                </div>
+                <div class="file-upload">
+                    <input type="url" id="input-url" placeholder="Sino ingresa tu imagen aquí" class="form-control" required>
+
+                    <div class="image-upload-wrap">
+                        <div class="drag-text">
+                            <h3>Go!</h3>
+                        </div>
+                    </div>
+                    <div class="file-upload-content">
+                        <img class="file-upload-image" id="file-upload-image" src="#" alt="Vista Previa" />
+                    </div>
+                    <div class="image-title-wrap">
+                        <button type="button" id="refresh" class="remove-image">Nuevo intento</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Descripción</h5>
+                    <p class="card-text" id="descripcion">Aquí aparecerá el resultado</p>
+                    <p class="card-text" id="descripcion_score"></p>
+
+                </div>
+            </div><div class="card mt10">
+                <div class="card-body">
+                    <h5 class="card-title">Tags</h5>
+                    <p class="card-text" id="tags">Aquí aparecerá el resultado</p>
+
+                </div>
+            </div>
+            <div class="card mt10">
+                <div class="card-body">
+                    <h5 class="card-title">Datos de foto</h5>
+                    <p class="card-text" id="face">Aquí aparecerá el resultado</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://underscorejs.org/underscore-min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</htm/>
